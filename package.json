@@ -1,0 +1,20 @@
+{
+  "name": "learn-nodejs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "nnam",
+  "license": "ISC",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "concurrently \"npx tsc --watch\" \"node --watch ./dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.35.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
